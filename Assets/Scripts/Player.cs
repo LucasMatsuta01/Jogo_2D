@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();// conectar o script ao componente Rigidbody2D
 
     }
 

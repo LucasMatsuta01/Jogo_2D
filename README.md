@@ -6,11 +6,15 @@ Jogo 2D;
 
 27/08 - Hoje aprendi sobre GAME DESIGN e algumas mecanicas e variantes sobre o ramo, estudamos exemplos e debatemos sobre o ramo de jogos, aprendemos oque um game design faz, aprendemos que ele cuida da elaboração do projeto, compreendendo seus niveis, puzzles, artes, animações e etc;
 
-22/09 - Hoje coloquei o pulo e a camera e a movimentação no player, aprendi como se faz isso e como colocar o MainCamer no player
+22/09 - Hoje fizemos um script chamdo câmera follow, também fizemos um que faz o player somente pular quando encostar no chão, usando um var isGrounded.
 
-24/09 - Hoje fiz desenvolvi o mapa de acordo com meu GDD, coloquei alguns obstaculos como espinhos.
+24/09 - Durante o desenvolvimento do jogo no dia de hoje, iniciamos a construção do mapa do jogo, adicionei plataformas e obstáculos ao mapa.
 
-27/09- Hoje criei a tag DANO que eu ja havia tentado criar, porem so consegui hoje, aprendi um pouco sobre cenas, e como funciona a ordem delas e que elas começam pelo 0.
+29/09 - Hoje fizemos o mapa do nosso jogo, aprendi a usar Prefabs, isso serve para ter a organização do projeto, com ele você pode adicionar objetos no mapa sem ter que fazer de novo. Aprendi como funciona as cenas do jogo, agora sai como colocar cena de menu e como podemos mudar o personagem de lugar.
+
+06/10 - Hoje fiz a cena de trofeu, funcionando, agora so falta o codigo de voltar.
+
+08/10 - 
 
 
 {

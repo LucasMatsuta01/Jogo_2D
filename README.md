@@ -14,7 +14,10 @@ Jogo 2D;
 
 06/10 - Hoje fiz a cena de trofeu, funcionando, agora so falta o codigo de voltar.
 
-08/10 - 
+08/10 - Hoje fiz uma pesquisa sobre o SceneManagement.
+
+15/10 - hoje começamos a tela de reset, coloquei canvas e button.
+
 
 
 {

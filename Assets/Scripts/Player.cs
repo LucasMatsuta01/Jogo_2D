@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public MenuScene menu;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();// conectar o script ao componente Rigidbody2D
@@ -37,7 +39,8 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0); //O player encostou no componete com teag Dano, Volta cena 0;
+            menu.MostrarGameOver();
+               
         }
     }
 

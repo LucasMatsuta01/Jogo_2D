@@ -57,8 +57,20 @@ public class MenuScene : MonoBehaviour
         Time.timeScale = 0F;
     }
 
+    public void Fase2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("fase2");
+    }
+
     public void Reiniciar() {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
     }
 }

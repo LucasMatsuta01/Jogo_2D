@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/jogo.unity
     guid: 81db9a24c193c3b42861cd3a9bc6919e
   - enabled: 1
+    path: Assets/Scenes/fase2.unity
+    guid: ce7c396e1c4587344a610c1c489854e6
+  - enabled: 1
     path: Assets/Scenes/Trofeu.unity
     guid: 6d266743a4c545645b5d62eb646d79ea
   m_configObjects:

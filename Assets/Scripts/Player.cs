@@ -37,11 +37,11 @@ public class Player : MonoBehaviour
             isGrounded = true;// quando o jogador estiver com o player tocando no chão
         }
 
-        if (collision.gameObject.CompareTag("Dano"))
+        if (!collision.gameObject.CompareTag("Dano"))
         {
-            menu.MostrarGameOver();
-               
+            return;
         }
+        menu.MostrarGameOver();
     }
 
     void OnCollisionExit2D(Collision2D collision)
